@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ajouterChambre</servlet-name>
+  	<display-name>ajouterChambre</display-name>
+  	<description></description>
+  	<servlet-class>tn.enig.controller.ajouterChambre</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>avantAjouterChambre</servlet-name>
+  	<display-name>avantAjouterChambre</display-name>
+  	<description></description>
+  	<servlet-class>tn.enig.controller.avantAjouterChambre</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>listeChambres</servlet-name>
+  	<display-name>listeChambres</display-name>
+  	<description></description>
+  	<servlet-class>tn.enig.controller.listeChambres</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>principale</servlet-name>
+  	<display-name>principale</display-name>
+  	<description></description>
+  	<servlet-class>tn.enig.controller.principale</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ajouterChambre</servlet-name>
+  	<url-pattern>/ajouterChambre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>avantAjouterChambre</servlet-name>
+  	<url-pattern>/avantAjouterChambre</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>listeChambres</servlet-name>
+  	<url-pattern>/listeChambres</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>principale</servlet-name>
+  	<url-pattern>/principale</url-pattern>
+  </servlet-mapping>
+</web-app>
